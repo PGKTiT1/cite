@@ -1,0 +1,40 @@
+<head>
+<style>
+    .wrap{
+        width: 400px;
+        height: 400px;
+        display: inline-block;
+        position: relative;
+        background-image: url(%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2.png);
+    }
+    .block_txt{
+        position: absolute;
+        width: 400px;
+        height: 0px;
+        background: rgba(0,0,0,0.4);
+        transition-duration: 1s;
+        overflow: hidden;
+    }
+    .wrap:hover > .block_txt{
+    height: 400px;
+    background: rgba(255,255,255,0.7);
+    }
+    .img{
+        position: relative;
+    }
+    p{
+        color: black;
+        text-overflow: clip;
+    }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="block_txt">
+<p>ssss</p>
+    <p>dddd</p>
+    </div>
+    
+    
+</div>
+</body>
